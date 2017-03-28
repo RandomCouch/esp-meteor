@@ -1,0 +1,110 @@
+/* GLOBALS : BEGIN */
+.glyphicon {
+    cursor: pointer;
+    color: #64D2FF;
+}
+a.active {
+    font-weight: bold;
+}
+.container_esp {
+    height: 100vh;
+}
+/* GLOBALS : END */
+/* EVENT PAGE */
+.footer {
+    display: block;
+    background-color: black;
+    position: fixed;
+    top: 90vh;
+    width: 100%;
+    min-height: 10vh;
+    padding: 10px;
+}
+.footer .nav ul {
+    width: 30%;
+    display: inline-table;
+}
+.footer .nav ul li {
+    display: inline-flex;
+    padding: 10px;
+    width: 20%;
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+/* TOP NAV STYLE : BEGIN */
+.nav.top {
+    width: 100%;
+    background-color: #E6F2F7;
+    padding-bottom: 5px;
+}
+.nav.top .menu ul {
+    list-style: none;
+}
+.nav.top .menu li{
+    display: inline-block;
+    margin-right: 5px;
+}
+.nav.top .menu li a {
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.46);
+    border-radius: 5px;
+    color: rgba(0, 0, 0, 0.68);
+}
+.nav.top .menu li a:hover{
+    background-color: rgba(255, 255, 255, 0.99);
+    color:black;
+}
+.nav.top .user {
+    padding: 5px;
+    margin-left: 10px;
+    font-weight: bold;
+}
+.nav.top .menu {
+    text-align: center;
+    margin-top: 10px;
+}
+/* TOP NAV STYLE : END */
+/* SIDE NAV STYLE : BEGIN */
+.nav.left {
+    float: left;
+    min-height: 40vh;
+    padding: 5px;
+    background-color: rgba(197, 234, 249, 0.79);
+    width: 10vw;
+    border-bottom-right-radius: 10px;
+}
+
+/* SIDE NAV STYLE : END */
+/* EDITABLE RESULTS TABLE : BEGIN */
+.editableLabel .glyphicon {
+    float: right;
+}
+.editableLabel input, .editableLabel select, .editableLabel textarea {
+    width: 90%;
+        float: left;
+}
+.editableLabel .fr-box.fr-top.fr-basic {
+    width: 90%;
+    float: left;
+}
+/* EDITABLE RESULTS TABLE : END */
+/* LOGIN/SIGNUP FORM : BEGIN */
+form.lform {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 50px;
+    background-color: #C8E8FF;
+    padding: 10px;
+    border-radius: 5px;
+}
+.lform>table>tbody>tr>td {
+    border: none;
+}
+.lform>h3 {
+    text-align:center;
+}
+.lform button {
+    width: 100%;
+    margin-bottom: 5px;
+}
+/* LOGIN FORM : END */
